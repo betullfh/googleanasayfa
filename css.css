@@ -1,0 +1,139 @@
+.header {
+   
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+   
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    
+  }
+  
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: flex; justify-content: flex-start; padding-right: 20px;
+
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  .search-area {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 25px;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    margin-top: 0px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 1px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .inputsearch{
+    
+   display: flex;
+    flex: 1;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+    width: 582px;
+  }
+  
+  .inputsearch:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.googlesearch,
+.feelinglucky {
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    background-color:#f2f2f2;
+    color: #5f6368;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.googlesearch:hover,
+.feelinglucky:hover {
+    background-color: #f2f2f2;
+}
+  
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
